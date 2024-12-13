@@ -1,0 +1,23 @@
+{
+  "name": "pastebin-clone",
+  "version": "1.0.0",
+  "description": "A simple pastebin clone built with Express",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nanoid": "^5.0.4",
+    "express-rate-limit": "^7.1.5",
+    "morgan": "^1.10.0",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
