@@ -11,6 +11,12 @@ Dont expect this to work perfectly there will be bugs and probably not very secu
 - Create and retrieve pastes
 - Docker support for containerization
 
+## To-do
+
+- Persistence database
+- Url expiry
+- Image/file upload
+
 ## Prerequisites
 
 - Node.js
